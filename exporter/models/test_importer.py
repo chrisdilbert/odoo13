@@ -2,10 +2,10 @@ from odoo import models, fields, api
 from odoo.tools.translate import _
 from odoo.exceptions import UserError, ValidationError
 from collections import namedtuple
-#import os
-#import zipfile
-#from io import StringIO, BytesIO
-#import base64
+import os
+import zipfile
+from io import StringIO, BytesIO
+import base64
 import odoo
 
 class TestExporter(models.Model):
