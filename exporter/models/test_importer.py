@@ -42,7 +42,7 @@ class TestExporter(models.Model):
                 outFile.writestr(zipInfo, "")
         outFile.close()
 
-    @api.multi
+    
     @api.model
     def test(self):
         try:
@@ -52,7 +52,7 @@ class TestExporter(models.Model):
             raise UserError(e)
 
 
-    @api.multi
+    
     @api.model
     def test2(self):
 
