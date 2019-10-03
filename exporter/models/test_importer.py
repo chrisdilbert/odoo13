@@ -43,7 +43,7 @@ class TestExporter(models.Model):
         outFile.close()
 
     
-    @api.model
+    
     def test(self):
         try:
             l = '\n'.join([ self.root_folder + '/' + name for name in os.listdir(self.root_folder) if os.path.isdir(os.path.join(self.root_folder, name)) ])
@@ -53,7 +53,7 @@ class TestExporter(models.Model):
 
 
     
-    @api.model
+    
     def test2(self):
 
         if self.folders_in_root:
