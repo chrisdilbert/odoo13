@@ -4,7 +4,7 @@
     'version': '1.0',
     'description':
         """
-            The Exporter
+            The Exporter.
         """,
     'depends': ['web'],
     'auto_install': False,
